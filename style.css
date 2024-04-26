@@ -53,6 +53,21 @@ a:hover {
     color: #ff3d8a;
 }
 
+nav {
+    position: sticky;
+    padding-left: 8%;
+    padding-right: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 60px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #3a71c1;
+    top: 0;
+    z-index: 1;
+}
+
 nav a.logo {
     display: flex;
     align-items: center;
@@ -60,7 +75,7 @@ nav a.logo {
     transition: color 0.3s;
     padding: 0px 0px;
     margin: 16px 0px;
-    font-size: 40px; /* Adjusted font size for better proportion */
+    font-size: 40px;
     font-weight: bold;
     color: #fff;
 }
@@ -99,7 +114,6 @@ section {
 }
 
 .content .text p {
-    /*margin: 0;*/
     margin-left: 0;
     margin-right: 0;
 }
