@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+
+* {
+    font-family: Nunito;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+a:hover {
+    color: #888888 !important;
+}
+
+.body0 {
+    background-color: #bcd6f0;
+}
+
+.body0 nav {
+    background-color: #3a71c1;
+}
+
+.body0 section a {
+    color: #2a5c99;
+}
+
+.body1 {
+    background-color: #ffeb99;
+}
+
+.body1 nav {
+    background-color: #ffcc00;
+}
+
+.body1 section a {
+    color: #ffa700;
+}
+
+.body2 {
+    background-color: #ffc1e3;
+}
+
+.body2 nav {
+    background-color: #ff69b4;
+}
+
+.body2 section a {
+    color: #ff3d8a;
+}
+
+nav a.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: color 0.3s;
+    padding: 0px 0px;
+    margin: 16px 0px;
+    font-size: 40px; /* Adjusted font size for better proportion */
+    font-weight: bold;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding-inline-start: 0;
+    box-sizing: border-box;
+}
+
+nav ul li {
+    margin: 0px 20px;
+    text-align: center;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+    padding: 10px 20px;
+    display: block;
+    line-height: 1.5;
+}
+
+section {
+    margin: 2% 8%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.content {
+    align-items: center;
+    display: flex;
+}
+
+.content .text p {
+    /*margin: 0;*/
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.content + .content {
+    margin-top: 1em;
+}
+
+.content .text li {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
