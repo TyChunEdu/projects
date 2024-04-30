@@ -126,3 +126,142 @@ section {
     margin-block-start: 1em;
     margin-block-end: 1em;
 }
+
+.project {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*
+.column h2 {
+    font-style: italic;
+    justify-content: space-between;
+}*/
+
+.project .column {
+    width: 50%;
+    margin: 0 2%;
+}
+
+.project .column:first-child {
+    margin-left: 0;
+}
+
+.project .column:last-child {
+    margin-right: 0;
+}
+
+.project .column .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project .column .row * {
+    margin: 2% 0;
+}
+
+/*.column:first-child * {
+    margin-top: 0;
+}
+
+.column:last-child * {
+    margin-bottom: 0;
+}*/
+
+img {
+    width: 100%;
+}
+
+.link-button {
+    padding: 5% 10%;
+    font-size: 1.17em;
+    white-space: nowrap;
+    background-color: #ffa700;
+    cursor: pointer;
+    border-width: 2px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: inline-block;
+    border-style: solid;
+}
+
+.button-anchor {
+    display: inline-block;
+    justify-content: center;
+    width: 45%;
+    text-align: center;
+}
+
+a button:hover {
+    color: #888888 !important;
+    border-color: #888888 !important;
+    border-style: solid;
+}
+
+ul.horizontal {
+    list-style: none;
+    padding-inline-start: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-block: 0;
+}
+
+ul.horizontal li {
+    margin-right: 30px !important;
+}
+
+.small-button {
+    font-size: 1em;
+    border-width: 1px;
+    border-radius: 16px;
+    background-color: white;
+    border-style: solid;
+    display: inline-block;
+    box-sizing: border-box;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.cs-button {
+    color: #ffa700;
+    border-color: #ffa700;
+}
+
+.music-button {
+    color: #ff3d8a;
+    border-color: #ff3d8a;
+}
+
+.other-button {
+    color: #2a5c99;
+    border-color: #2a5c99;
+}
+
+.credits {
+    width: 100%;
+}
+
+.credits .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 !important;
+}
+
+.credits .row * {
+    margin: 0 0;
+}
+
+.credits .row:first-child {
+    margin-right: auto;
+}
+
+.credits .row:last-child {
+    margin-left: auto;
+}
